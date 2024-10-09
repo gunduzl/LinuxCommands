@@ -42,5 +42,8 @@ groupadd admin
 
 and this Bob into admin
 
-//usermod -a -G admin Bob
+````
+usermod -a -G admin Bob
+
+````
 
