@@ -26,3 +26,8 @@ Total = 7 ( RWX )
 For example:
 rwx r-x r-- = 7    5    4
 
+In order to make this with chmod: 
+
+chmod 754 crc8.py
+
+
