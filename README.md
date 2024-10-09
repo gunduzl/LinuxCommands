@@ -19,6 +19,8 @@ In order to enable write for all users, we need only chmod (change mod) +w
 chmod +w crc8.py
 
 Read = 4, Write = 2, Execute = 1
+
+
 Total = 7 ( WRX)
 
 For example:
