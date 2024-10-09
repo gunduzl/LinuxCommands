@@ -34,6 +34,13 @@ If user have root authorization
 
 to create a user
 
-useradd test
+useradd Bob
 
+to create a group
+
+groupadd admin
+
+and this Bob into admin
+
+usermod -a -G admin Bob
 
