@@ -21,7 +21,7 @@ chmod +w crc8.py
 Read = 4, Write = 2, Execute = 1
 
 
-Total = 7 ( WRX)
+Total = 7 ( RWX )
 
 For example:
 rwx r-x r-- = 7    5    4
