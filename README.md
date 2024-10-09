@@ -30,4 +30,10 @@ In order to make this with chmod:
 
 chmod 754 crc8.py
 
+If user have root authorization
+
+to create a user
+
+useradd test
+
 
