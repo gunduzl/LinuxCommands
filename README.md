@@ -16,7 +16,10 @@ Third 3 r-- is representing the authorizations of other users.
 
 In order to enable write for all users, we need only chmod (change mod) +w
 
+
+````
 chmod +w crc8.py
+````
 
 Read = 4, Write = 2, Execute = 1
 
@@ -28,22 +31,28 @@ rwx r-x r-- = 7    5    4
 
 In order to make this with chmod: 
 
+
+````
 chmod 754 crc8.py
+````
 
 If user have root authorization
 
 to create a user
 
-useradd Bob
+````
+uszeradd bob
+````
 
 to create a group
 
+````
 groupadd admin
+````
 
 and this Bob into admin
 
 ````
 usermod -a -G admin Bob
-
 ````
 
