@@ -22,6 +22,5 @@ Read = 4, Write = 2, Execute = 1
 Total = 7 ( WRX)
 
 For example:
-rwx r-x r--
-7    5    4
+rwx r-x r-- = 7    5    4
 
