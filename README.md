@@ -41,7 +41,7 @@ If user have root authorization
 to create a user
 
 ````
-uszeradd bob
+useradd bob
 ````
 
 to create a group
