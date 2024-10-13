@@ -29,6 +29,12 @@ Total = 7 ( RWX )
 For example:
 rwx r-x r-- = 7    5    4
 
+7 representing this user can RWX
+
+5 representing authorization of this user's group RX
+
+4 representing other users can only R
+
 In order to make this with chmod: 
 
 
